@@ -86,8 +86,42 @@ a. Define a function using Math
 
 b. Calculating derivative of the function to determine critical points
 c. Using SciPy’s built-in Newton’s algorithm  for optimization of given function.
-d. The function is a representation of mathematical calculations performed in:
+d. The code is a representation of mathematical calculations performed in Question (1.c): https://github.com/uttara-tech/typesetting-LaTeX/blob/8fbead2715a8d54141a1f6b09b3e073e6d3bd9a7/linear_algebra/Mid_Module_Assignment.pdf
 
     Repository - typesetting-LaTeX
     Folder - linear_algebra
     File - Mid_Module_Assignment.pdf, Question (1.c)
+
+### 6.	Breast Cancer Prodiction ###
+**Objective:**
+
+**Libraries:** Scikit-learn, Numpy, Pandas, Matplotlib, Seaborn
+
+**Overview:**
+
+a. Pre-processing data and standardizing all values using Scikit-learn (sklearn)
+
+b. Performing PCA for dimensionality reduction. 10 out of 30 columns are enough to explain 95% of variance.
+
+c. Training and Testing the data with these 10 columns.
+
+d. Utilizing default classifiers for below machine learning algorithms:
+
+    Descision Tree Classifier
+    Random Forest Classifier
+    XGB (eXtreme Gradient Boosting) Classifier
+    Gradient Boosting Classifier
+    Extra Trees Classifier
+    K-nearest Neighbors Classifier
+
+e. Training the data with all the above classifiers
+
+f. Testing the data, making predictions and calculating accuracy accordingly.
+
+g. Using a confusion matrix to evalute the performance of all classifiers.
+
+h. Representing and comparing all classifier performances with a ROC curve.
+
+
+
+
