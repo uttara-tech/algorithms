@@ -93,7 +93,7 @@ d. The code is a representation of mathematical calculations performed in Questi
     File - Mid_Module_Assignment.pdf, Question (1.c)
 
 ### 6.	Breast Cancer Prodiction ###
-**Objective:**
+**Objective:** Multi-class model in Machine Learning
 
 **Libraries:** Scikit-learn, Numpy, Pandas, Matplotlib, Seaborn
 
