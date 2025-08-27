@@ -44,7 +44,7 @@ b. Data visulalization using Matplotlib and Seaborn.
 c. Used Distribution plot, Join plot, Pair plot, Box plot, Heatmap, Seaborn’s ‘catplot’ i.e.  plot showcasing relationship between numerical and categorical variables i.e. catplot, Count plot, Bar plot.
 
 ### 4.	Predict LoS (Length of Stay) of patients in a hospital ###
-**Objective:** Prediction using 
+**Objective:** Prediction using Keras Model
 
 **Frameworks and Libraries:** TensorFlow, Keras, Scikit-learn, Numpy, Pandas, Matplotlib, Seaborn
 
