@@ -3,47 +3,7 @@
 ## Overview ##
 
 
-### 1.	Wine data analysis ###
-**Objective**: Hyperparameter Tuning
-
-**Libraries**: Numpy, Pandas, Matplotlib, XGBoost, Seaborn
-
-**Overview:**
-
-a. Data analysis and representation using Matplotlib.
-
-b. Hyperparameter tuning and Pipelining using XGBoost.
-
-c. Comparison of accuracy derived by different hyperparameter combinations using Grid Search, Random Search and Bayesian Optimization.
-
-### 2.	Video Games sales data analysis ###
-**Objective:** Data Visualization
-
-**Libraries:** Numpy, Pandas, Matplotlib, Seaborn
-
-**Overview:**
-
-a. Exploring and grouping the data.
-
-b. Data visulalization using Matplotlib and Seaborn.
-
-c. Used Heatmap, Histogram, Count plot, Bar plot, Group Bar plot, Joinplot.
-
-
-### 3.	Students Performance ###
-**Objective:** Data Visualization
-
-**Libraries:** Numpy, Pandas, Matplotlib, Seaborn
-
-**Overview:**
-
-a. Exploring and grouping the data.
-
-b. Data visulalization using Matplotlib and Seaborn.
-
-c. Used Distribution plot, Join plot, Pair plot, Box plot, Heatmap, Seaborn’s ‘catplot’ i.e.  plot showcasing relationship between numerical and categorical variables i.e. catplot, Count plot, Bar plot.
-
-### 4.	Predict LoS (Length of Stay) of patients in a hospital ###
+### 1.	Predict LoS (Length of Stay) of patients in a hospital ###
 **Objective:** Prediction using Keras Model
 
 **Frameworks and Libraries:** TensorFlow, Keras, Scikit-learn, Numpy, Pandas, Matplotlib, Seaborn
@@ -52,7 +12,7 @@ c. Used Distribution plot, Join plot, Pair plot, Box plot, Heatmap, Seaborn’s 
 
 a. Pre-processing data by:
     
-    i) data cleaning, 
+    i) data cleaning, drop redundant columns and fill in missing values in cells
 
     ii) splitting data into numerical and categorical groups, 
     
@@ -75,31 +35,15 @@ b. Pre-process categorical features using:
     vii) Compile and Build the model
 
 
-### 5.	Newton-Raphson ###
-**Objective:** Newton-Raphson mathematical representation using Python
 
-**Libraries:** SciPy, Math, Sympy, Numpy, Matplotlib
-
-**Overview:**
-
-a. Define a function using Math
-
-b. Calculating derivative of the function to determine critical points
-c. Using SciPy’s built-in Newton’s algorithm  for optimization of given function.
-d. The code is a representation of mathematical calculations performed in Question (1.c): https://github.com/uttara-tech/typesetting-LaTeX/blob/8fbead2715a8d54141a1f6b09b3e073e6d3bd9a7/linear_algebra/Mid_Module_Assignment.pdf
-
-    Repository - typesetting-LaTeX
-    Folder - linear_algebra
-    File - Mid_Module_Assignment.pdf, Question (1.c)
-
-### 6.	Breast Cancer Prodiction ###
+### 2.	Breast Cancer Prodiction ###
 **Objective:** Multi-class model in Machine Learning
 
 **Libraries:** Scikit-learn, Numpy, Pandas, Matplotlib, Seaborn
 
 **Overview:**
 
-a. Pre-processing data and standardizing all values using Scikit-learn (sklearn)
+a. Pre-processing data, like checking for null values and drop unwanted columns, and standardizing all values using Scikit-learn (sklearn)
 
 b. Performing PCA for dimensionality reduction. 10 out of 30 columns are enough to explain 95% of variance.
 
@@ -124,4 +68,66 @@ h. Representing and comparing all classifier performances with a ROC curve.
 
 
 
+### 3.	Newton-Raphson ###
+**Objective:** Newton-Raphson mathematical representation using Python
+
+**Libraries:** SciPy, Math, Sympy, Numpy, Matplotlib
+
+**Overview:**
+
+a. Define a function using Math
+
+b. Calculating derivative of the function to determine critical points
+c. Using SciPy’s built-in Newton’s algorithm  for optimization of given function.
+d. The code is a representation of mathematical calculations performed in Question (1.c): https://github.com/uttara-tech/typesetting-LaTeX/blob/8fbead2715a8d54141a1f6b09b3e073e6d3bd9a7/linear_algebra/Mid_Module_Assignment.pdf
+
+    Repository - typesetting-LaTeX
+    Folder - linear_algebra
+    File - Mid_Module_Assignment.pdf, Question (1.c)
+    
+
+### 4.	Wine data analysis ###
+**Objective**: Hyperparameter Tuning
+
+**Libraries**: Numpy, Pandas, Matplotlib, XGBoost, Seaborn
+
+**Overview:**
+
+a. Data preprocessing - checking for null values
+
+b. Data analysis and representation using Matplotlib.
+
+c. Hyperparameter tuning and Pipelining using XGBoost.
+
+d. Comparison of accuracy derived by different hyperparameter combinations using Grid Search, Random Search and Bayesian Optimization.
+
+
+
+### 5.	Video Games sales data analysis ###
+**Objective:** Data Visualization
+
+**Libraries:** Numpy, Pandas, Matplotlib, Seaborn
+
+**Overview:**
+
+a. Exploring and grouping the data.
+
+b. Data visulalization using Matplotlib and Seaborn.
+
+c. Used Heatmap, Histogram, Count plot, Bar plot, Group Bar plot, Joinplot.
+
+
+
+### 6.	Students Performance ###
+**Objective:** Data Visualization
+
+**Libraries:** Numpy, Pandas, Matplotlib, Seaborn
+
+**Overview:**
+
+a. Exploring and grouping the data.
+
+b. Data visulalization using Matplotlib and Seaborn.
+
+c. Used Distribution plot, Join plot, Pair plot, Box plot, Heatmap, Seaborn’s ‘catplot’ i.e.  plot showcasing relationship between numerical and categorical variables i.e. catplot, Count plot, Bar plot.
 
