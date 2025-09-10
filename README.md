@@ -35,8 +35,23 @@ b. Pre-process categorical features using:
     vii) Compile and Build the model
 
 
+### 2.	Wine data analysis ###
+**Objective**: Hyperparameter Tuning and Pipelining using XGBoost
 
-### 2.	Breast Cancer Prodiction ###
+**Libraries**: Numpy, Pandas, Matplotlib, XGBoost, Seaborn
+
+**Overview:**
+
+a. Data preprocessing - checking for null values
+
+b. Data analysis and representation using Matplotlib.
+
+c. Hyperparameter tuning and Pipelining using XGBoost.
+
+d. Comparison of accuracy derived by different hyperparameter combinations using Grid Search, Random Search and Bayesian Optimization.
+
+
+### 3.	Breast Cancer Prodiction ###
 **Objective:** Multi-class model in Machine Learning
 
 **Libraries:** Scikit-learn, Numpy, Pandas, Matplotlib, Seaborn
@@ -68,7 +83,7 @@ h. Representing and comparing all classifier performances with a ROC curve.
 
 
 
-### 3.	Newton-Raphson ###
+### 4.	Newton-Raphson ###
 **Objective:** Newton-Raphson mathematical representation using Python
 
 **Libraries:** SciPy, Math, Sympy, Numpy, Matplotlib
@@ -85,22 +100,6 @@ d. The code is a representation of mathematical calculations performed in Questi
     Folder - linear_algebra
     File - Mid_Module_Assignment.pdf, Question (1.c)
     
-
-### 4.	Wine data analysis ###
-**Objective**: Hyperparameter Tuning
-
-**Libraries**: Numpy, Pandas, Matplotlib, XGBoost, Seaborn
-
-**Overview:**
-
-a. Data preprocessing - checking for null values
-
-b. Data analysis and representation using Matplotlib.
-
-c. Hyperparameter tuning and Pipelining using XGBoost.
-
-d. Comparison of accuracy derived by different hyperparameter combinations using Grid Search, Random Search and Bayesian Optimization.
-
 
 
 ### 5.	Video Games sales data analysis ###
