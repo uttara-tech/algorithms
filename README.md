@@ -2,6 +2,7 @@
 
 ## Overview ##
 
+### A brief outline of machine learning and deep learning concepts incorporated in the assignments: ###
 
 ### 1.	Predict LoS (Length of Stay) of patients in a hospital ###
 **Objective:** Prediction using Keras Model
@@ -51,7 +52,7 @@ c. Hyperparameter tuning and Pipelining using XGBoost.
 d. Comparison of accuracy derived by different hyperparameter combinations using Grid Search, Random Search and Bayesian Optimization.
 
 
-### 3.	Breast Cancer Prodiction ###
+### 3.	Breast Cancer Prediction ###
 **Objective:** Multi-class model in Machine Learning
 
 **Libraries:** Scikit-learn, Numpy, Pandas, Matplotlib, Seaborn
